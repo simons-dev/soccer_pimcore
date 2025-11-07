@@ -1,0 +1,26 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1 class="site-header">Spielerliste von<br> {{ team.name}} </h1>
+    <a href="/">Zurück zur Gesamtübersicht</a>
+    
+    <div class="card team">
+        <img src="{{ team.logo }}">
+        <div class="card-info">
+            <h2> Trainer: {{ team.trainer }}</h2>
+            <p> Stadt: {{ team.city}} </p>
+            <p> Koordinaten: {{ team.location}} </p>
+            <p> Gründungsjahr: {{ team.established.year }} </p>
+        </div>
+    </div>
+    
+    {% for player in players%}
+        <div class="card">
+            <div class="card-info">
+                <h2>Rückennummer: {{player.number}} Position: {{ player.position }} </h2>
+                <p> Name: {{player.firstname}} {{player.lastname}}</p>
+                <p> Alter: {{ player.age }} </p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

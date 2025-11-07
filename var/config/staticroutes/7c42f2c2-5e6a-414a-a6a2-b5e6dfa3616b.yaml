@@ -1,0 +1,14 @@
+pimcore_static_routes:
+    definitions:
+        7c42f2c2-5e6a-414a-a6a2-b5e6dfa3616b:
+            name: Detail
+            pattern: '/\/Teams\/(.*)/'
+            reverse: /Teams/%teamPath
+            controller: 'App\Controller\SoccerController::detailAction'
+            variables: teamPath
+            defaults: ''
+            siteId: {  }
+            methods: {  }
+            priority: 1
+            creationDate: 1762499373
+            modificationDate: 1762519820

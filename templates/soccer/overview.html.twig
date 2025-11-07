@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1 class="site-header">Soccer Teams</h1>
+
+    {% for team in teams %}
+        <a class="card" href="{{team}}">
+            <img src="{{ team.logo }}" alt="Logo of {{team.name}}"> 
+            <div class="card-info">
+                <h2> {{ team.name }} </h2>
+                <p> Anzahl der Spieler: {{players[team.name] }}</p>
+                <p> Trainer: {{ team.trainer }} </p>
+            </div>
+        </a>
+    {% endfor %}
+{% endblock %}

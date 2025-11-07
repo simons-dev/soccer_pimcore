@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid slice">
+	<filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="20 20" edgeMode="duplicate" />
+    <feComponentTransfer>
+      <feFuncA type="discrete" tableValues="1 1" />
+    </feComponentTransfer>
+  </filter>
+    <image filter="url(#blur)" x="0" y="0" height="100%" width="100%" xlink:href="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAEAAQADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAQEBAQEAAgIDAAAAAAAAAAABETECQVEhcRJhgf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEUH/2gAMAwEAAhEDEQA/AKUJAUJAUJAUJAUMBik79GWg02GRoJ/yqAAAGY0AY0ASoYDFCQFCQFCQFCQFCQFCQFCQFMtxP5oN36M+2yY0AAAAAAAAAAAAAAGY0ASoSAoSAoSAoSAoSAWlrJNQJNWCgAAAAAAAAAAAAAAAAAAACVCQFCQFCQG2tQlBUmMk+VEAGX8KFuM1jE1GsBB0AaUAAAAAABNoNtTtYIjSdY2dBYCqAwGKEgKGAmjFREUAqifSk+gSAygADoA0oCbQUzYgTRexqFgJvVJvSiQEQbOsbOgsBpRnL+2soDWRgBVIvUoxc4h0IACgn0pPoEgMoAA6ANKmpVUogAg1aFrFE3qk3pRICINnWNnQWA0oACfmxSb8VoCF3iEqNnVonVkUAUE+lJ9AkBlAAHQBpU1KqlEAEGrQtYom9Um9KJARBs6xs6CwGlAAZeE4XjJwC8iVevhKVFTqkTqyKAKCfSk+gSAygADoA0qalVSiACDVoWsUTeqTelEgIg2dY2dBYDSgAMvGRt4yfKBfhKvSSo2dWhZFAFBPpSfQJAZQAB0AaVPpKqlEAEGrQtYom9Um9KJARBs6xs6CwGlAAZeM8nonE6F4ldQVBc4hUIKAVRPpSaCQGUAAdBMrdaVlS1iIAINW5qlWCkXrdYVWAIg2dY2dBYDSgAIvVTiVICatN+yiWsER0EyqaUZeNAcxtmMZQAAAAAAAAAAAAAAVOpXJiwaAqiapCUJ1aYEBtalRIqxKI1U/KGy4CwFVlmpWzNQQNxiIAADcqpMUZIyzFhiuYqxgjAEAbipFGSKBVAZaDLWMVPtEa0SqihINStN/P7QSAiNlxbm2XFFgKoADMjQAAAAAABmRuAAAADLQLcSMRGrZJjBRQlQUJAUJAs+UuibPpBICI1UqBR0EarTVaAoAAAAAAAzQaJ1iaNtSAgqQkBRQlQUJAUJAUJAUJAzf2xbEECrEiACDTawBWt1Aui9hsQGitNSA3awEAFZ9qMVJjUiihKgoSAoSAoSAoSAoSAoSA3GpAz6Zi2JggXkZkMRIr+Jn9gkV/Ez+wSLyM/wwY3FJMVrRKgoSAoSAoSAoSD//2Q==" />
+</svg>
